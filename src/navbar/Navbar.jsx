@@ -11,15 +11,17 @@ const Navbar = () => {
                 <i className="fas fa-at topIcon"></i>
             </div>
             <div className="topCenter">
-                <li className="topListItem">home</li>
-                <li className="topListItem">about</li>
-                <li className="topListItem">contact</li>
-                <li className="topListItem">post</li>
-                <li className="topListItem">login/logout</li>
+                <div className="topList">
+                    <li className="topListItem">home</li>
+                    <li className="topListItem">about</li>
+                    <li className="topListItem">contact</li>
+                    <li className="topListItem">post</li>
+                    <li className="topListItem">login/logout</li>
+                </div>
             </div>
             <div className="topRight">
                 <img src="" className="topImage" alt="Profile Picture" />
-                <i className="topSearch fas fa-search"></i>
+                <i className="topSearchIcon fas fa-search"></i>
             </div>
         </div>
     );
