@@ -1,5 +1,6 @@
 import "./navbar.scss"
 
+// @TODO -> API to get the current weather & time in INDIANA, 
 const Navbar = () => {
     return (  
         <div className="navbar">
