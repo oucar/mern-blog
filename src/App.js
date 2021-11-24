@@ -5,7 +5,7 @@ function App() {
     <div className="content">
       <Navbar/>
     </div>
-
+  
   );
 }
 

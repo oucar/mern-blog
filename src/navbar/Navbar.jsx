@@ -1,17 +1,26 @@
-import "./navbar.css"
+import "./navbar.scss"
 
 const Navbar = () => {
     return (  
         <div className="navbar">
             {/* Social Media */}
             <div className="topLeft">
-                <i class="fab fa-linkedin-in"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-github"></i>
-                <i class="fas fa-at"></i>
+                <i className="fab fa-linkedin-in topIcon"></i>
+                <i className="fab fa-instagram topIcon"></i>
+                <i className="fab fa-github topIcon"></i>
+                <i className="fas fa-at topIcon"></i>
             </div>
-            <div className="topCenter">C</div>
-            <div className="topRight">R</div>
+            <div className="topCenter">
+                <li className="topListItem">home</li>
+                <li className="topListItem">about</li>
+                <li className="topListItem">contact</li>
+                <li className="topListItem">post</li>
+                <li className="topListItem">login/logout</li>
+            </div>
+            <div className="topRight">
+                <img src="" className="topImage" alt="Profile Picture" />
+                <i className="topSearch fas fa-search"></i>
+            </div>
         </div>
     );
 }
