@@ -1,9 +1,15 @@
+import Post from "../post/Post";
 import "./posts.scss"
 
 const Posts = () => {
     return ( 
         <div className="posts">
-            <p>Posts</p>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
         </div> 
     );
 }
