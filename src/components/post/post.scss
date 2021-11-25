@@ -1,0 +1,85 @@
+$category-hover: #002a3d;
+$card-color: #dff1ff;
+$date-color: #999;
+$description-color: #444;
+
+.post{
+    width: 44%;
+    margin: 78px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: $card-color;
+}
+
+.postInfo{
+    // flex
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.postCategories{
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    .postCategory{
+        margin-right: 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 2px 5px;
+
+        &:hover{
+            transition: 0.4s;
+            background-color: $category-hover;
+            color: $card-color;
+        }
+
+    }
+
+}
+
+.postDate{
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: $date-color;
+    margin-top: 15px;
+}
+
+.postTitle{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDescription{
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    color: $description-color;
+
+    // display only 4-5 lines in the main page.
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+

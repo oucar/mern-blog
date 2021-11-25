@@ -1,3 +1,12 @@
+// COLOR PALETTE
+$main-color: #f3f5ff;
+$mid-color: #dff1ff;
+$heavy-color: #002a3d;
+
+body{
+    background-color: $main-color;
+}
+
 .home{
     display: flex;
 }
