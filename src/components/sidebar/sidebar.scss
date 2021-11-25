@@ -4,10 +4,11 @@ $border-color: #002a3d;
 .sidebar{
     // flex related
     display: flex;
-    flex: 1;
+    flex: 3;
     width: 25%;
     flex-direction: column;
     align-items: center;
+    padding: 0 10px;
 
     
     // general attributes
@@ -19,7 +20,6 @@ $border-color: #002a3d;
     img {
         width: 100%;
         height: auto;
-
         margin: 15px 0 15px;
     }
     p {
@@ -78,7 +78,12 @@ $border-color: #002a3d;
 }
 
 .sidebarIcon{
+    transition: ease-in 0.1s;
     font-size: 20px;
     margin-left: 30px;
     cursor: pointer;
+
+    &:hover{
+        transform: scale(1.2);
+    }
 }
