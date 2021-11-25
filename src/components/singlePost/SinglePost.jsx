@@ -5,17 +5,19 @@ const SinglePost = () => {
     return ( 
         <div className="singlePost">
             <div className="singlePostWrapper">
-            <img src={postImage} alt="Post image" />
-            <h1 className="postTitle">Lorem Ipsum!</h1>
-            <div className="postActions">
-                <i className="far fa-trash-alt"></i>
-                <i className="far fa-edit"></i>
-            </div>
+                <img src={postImage} alt="Post image" />
+                <div className="postHeaderWrapper">
+                    <h1 className="singlePostTitle">Lorem Ipsum!</h1>
+                    <div className="postActions">
+                        <i className="far fa-trash-alt postActionIcon"></i>
+                        <i className="far fa-edit postActionIcon"></i>
+                    </div>
+                </div>
                 <div className="singlePostInfo">
                     <span className="singlePostAuthor">Author: <strong>@onurucar</strong></span>
                     <span className="singlePostDate">2 hours ago</span>
                 </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, optio laudantium mollitia suscipit eligendi amet praesentium, nihil ex sapiente impedit necessitatibus molestias ullam, officiis obcaecati accusantium eveniet minima autem quam!
+                <p className="singlePostDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, optio laudantium mollitia suscipit eligendi amet praesentium, nihil ex sapiente impedit necessitatibus molestias ullam, officiis obcaecati accusantium eveniet minima autem quam!
                 Voluptatum quibusdam dolore nisi, architecto esse quod itaque alias! Libero dolorum perspiciatis quisquam mollitia, illum nihil asperiores, facilis sequi adipisci, sed numquam aliquid distinctio tempora eius ipsum pariatur vero sit.
                 Id sed distinctio excepturi quidem ipsa in optio ab quo cumque consequuntur eius vitae molestiae veritatis vero nam voluptatibus rerum ipsam, qui magnam recusandae. Corporis totam omnis aspernatur? Dicta, perspiciatis?
                 Iusto, tempora vero magni ullam labore perferendis quod libero illum eaque molestias autem earum assumenda voluptatum quaerat magnam velit sint suscipit? Iure quas laudantium dignissimos aliquid ducimus delectus, accusantium et!
@@ -27,7 +29,6 @@ const SinglePost = () => {
                 Itaque vel earum porro perspiciatis dolorum consequatur hic voluptate, officia dolorem iste saepe et quo nostrum nulla, dignissimos velit eaque, placeat atque? Qui, nulla consequatur! Quidem perspiciatis sint exercitationem necessitatibus!
                 Odio fugit consequuntur a autem perferendis vitae molestias maxime odit ducimus ea mollitia dolorum pariatur placeat non modi numquam officia, praesentium, reprehenderit qui sunt quam labore? Eum molestiae debitis dignissimos.
                 Mollitia non aspernatur ut quae, tempore eligendi repellendus repudiandae libero, aliquam, quasi voluptate dicta nam? Perferendis sint blanditiis consectetur accusamus numquam modi, expedita, nobis quam magnam natus, harum iusto excepturi?</p>
-
             </div>
         </div> 
     );

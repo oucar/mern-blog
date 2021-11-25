@@ -1,4 +1,5 @@
 import "./navbar.scss"
+import photo from "../assets/me.JPG"
 
 // @TODO -> API to get the current weather & time in INDIANA, 
 const Navbar = () => {
@@ -21,7 +22,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="topRight">
-                <img src="" className="topImage" alt="Profile Picture" />
+                <img src={photo} className="topImage" alt="Profile Picture" />
                 <i className="topSearchIcon fas fa-search"></i>
             </div>
         </div>

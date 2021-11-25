@@ -6,8 +6,8 @@ import Single from "./components/pages/single/Single";
 function App() {
   return (
     <div className="content">
-      {/* <Navbar/>
-      <Home/> */}
+      <Navbar/>
+      {/* <Home/> */}
       <Single/>
     </div>
   
