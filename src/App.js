@@ -3,6 +3,7 @@ import Posts from "./components/posts/Posts";
 import Home from "./pages/home/Home";
 import Single from "./pages/single/Single";
 import Create from "./pages/create/Create";
+import Settings from "./pages/settings/Settings";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar/>
       {/* <Home/> */}
       {/* <Single/> */}
-      <Create/>
+      {/* <Create/> */}
+      <Settings/>
     </div>
   
   );
