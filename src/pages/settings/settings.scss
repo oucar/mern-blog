@@ -1,9 +1,44 @@
+$editIcon: gold;
+$deleteIcon: red;
+
 .settings{
     display: flex;
 
     .settingsWrapper{
         width: 80%;
-        
+    }
 
+    .settingsSelections{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        
+        // flex related
+        margin: 40px;
+
+        .settingsUpdateWrapper{
+
+            margin-bottom: 30px;
+            .settingIcon{
+                color: $editIcon;
+                margin-right: 10px;
+            }
+        }
+
+        .settingsDeleteWrapper{
+            .settingIcon{
+                color: $deleteIcon;
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+
+    // FORM
+    form{
+
+        .imageInput{
+            display: none;;
+        }
     }
 }
